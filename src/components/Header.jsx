@@ -4,9 +4,9 @@ export default function Header() {
       <h1>🍲 Recipe App</h1>
 
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Recipes</a>
-        <a href="#">About</a>
+        <button className="link">Home</button>
+        <button className="link">Recipes</button>
+        <button className="link">About</button>
       </nav>
     </header>
   );

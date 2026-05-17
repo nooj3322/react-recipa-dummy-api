@@ -83,3 +83,17 @@
   background: #111;
   color: white;
 }
+.link {
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
